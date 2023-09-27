@@ -1,0 +1,56 @@
+<!DOCTPYE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The sixth question</title>
+	<style>
+		.title{
+			position: absolute; 
+			margin-left: 350px; 
+			margin-top: 20px; 
+			background-color: lightblue; 
+			width: 800px; 
+			heigth: 80px; 
+			line-height: 80px;
+			font-size: 30px; 
+			padding: 0px 20px; 
+		}
+		.answer{
+			height: auto; 
+			width: 800px; 
+			background-color: lightblue; 
+			position: sticky; 
+			top: 100px; 
+			padding: 20px; 
+			margin-left: 350px;
+		}
+		.footer{
+			height: 60px; 
+			line-height: 60px;
+			width: 100%; 
+			position: fixed; 
+			bottom: 0; 
+			background-color: lightblue;
+			text-align: center;
+		}
+	</style>
+</head>
+<body style="height: 1000px; position: relative">
+	<div class="title">
+		The answer to the sixth question!
+	</div>
+	<div class="answer">
+		As currently displayed, the title utilizes relative and absolute positioning, the main content employs sticky positioning, and the footer employs fixed positioning.<br>
+		<strong>1、Relative Positioning: </strong>Relative positioning is used to fine-tune an element's position relative to its original location, without affecting the layout of other elements. It is employed when you need to make minor adjustments to an element's position within the normal document flow.<br>
+
+		<strong>2、Absolute Positioning:</strong> Absolute positioning is used to remove an element from the normal document flow and position it relative to its nearest non-statically positioned parent element. It is used when you need to place an element at a specific location on the page, independently of other elements.<br>
+
+		<strong>3、Fixed Positioning:</strong> Fixed positioning is used to position an element relative to the browser viewport. The element remains in the same position regardless of how the user scrolls the page. It is employed when you want an element to remain constantly visible.<br>
+
+		<strong>4、Sticky Positioning:</strong> Sticky positioning allows an element to stay on the screen at a particular location as the user scrolls the page until it reaches a specified point where it stops scrolling.
+	</div>
+	<div class="footer">
+		<center>&copy; 2023 The sixth question.</center>
+	</div>
+</body>
+</html>
